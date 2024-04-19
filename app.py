@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import numpy as np
 import os
-pip install opencv-python-headless
+
 
 # Titre de l'application
 st.title("Identification d'individus par l'iris")
