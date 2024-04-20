@@ -24,7 +24,7 @@ def euclidean_distance(descriptor1, descriptor2):
     return np.linalg.norm(descriptor1 - descriptor2)
 
 # Chargement des images de la base de données
-database_folder = "C:\Users\PICOS\Downloads"
+database_folder = "iris1_8.zip"
 database_images = []
 for root, dirs, files in os.walk(database_folder):
     for file in files:
